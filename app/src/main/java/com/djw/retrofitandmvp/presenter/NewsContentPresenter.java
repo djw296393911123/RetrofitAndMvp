@@ -33,6 +33,7 @@ public class NewsContentPresenter implements NewsContentContracts.Presenter {
             public void onFali() {
                 view.hideRefreshView();
                 view.onFail();
+
             }
 
             @Override
